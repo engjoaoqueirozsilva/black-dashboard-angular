@@ -317,18 +317,18 @@ export class DashboardComponent implements OnInit {
     gradientStroke.addColorStop(0, 'rgba(233,32,16,0)'); //red colors
 
     var data = {
-      labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+      labels: ['JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'],
       datasets: [{
         label: "Data",
         fill: true,
         backgroundColor: gradientStroke,
-        borderColor: '#ec250d',
+        borderColor: '#344675',
         borderWidth: 2,
         borderDash: [],
         borderDashOffset: 0.0,
-        pointBackgroundColor: '#ec250d',
+        pointBackgroundColor: '#344675',
         pointBorderColor: 'rgba(255,255,255,0)',
-        pointHoverBackgroundColor: '#ec250d',
+        pointHoverBackgroundColor: '#344675',
         pointBorderWidth: 20,
         pointHoverRadius: 4,
         pointHoverBorderWidth: 15,
@@ -355,7 +355,7 @@ export class DashboardComponent implements OnInit {
     gradientStroke.addColorStop(0, 'rgba(66,134,121,0)'); //green colors
 
     var data = {
-      labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV'],
+      labels: ['JUL', 'AGO', 'SET', 'OUT', 'NOV'],
       datasets: [{
         label: "My First dataset",
         fill: true,
@@ -384,7 +384,7 @@ export class DashboardComponent implements OnInit {
 
 
 
-    var chart_labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+    var chart_labels = ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'];
     this.datasets = [
       [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100],
       [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
@@ -411,13 +411,13 @@ export class DashboardComponent implements OnInit {
           label: "My First dataset",
           fill: true,
           backgroundColor: gradientStroke,
-          borderColor: '#ec250d',
+          borderColor: '#344675',
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
-          pointBackgroundColor: '#ec250d',
+          pointBackgroundColor: '#344675',
           pointBorderColor: 'rgba(255,255,255,0)',
-          pointHoverBackgroundColor: '#ec250d',
+          pointHoverBackgroundColor: '#344675',
           pointBorderWidth: 20,
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
