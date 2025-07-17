@@ -4,11 +4,11 @@
   "description": "Black Dasboard Angular, a Creative Tim Desgin. Coded by Creative Tim",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng serve",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider CI=false ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
+    "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng test",
+    "lint": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng lint",
+    "e2e": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "repository": {

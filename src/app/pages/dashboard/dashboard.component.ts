@@ -312,9 +312,9 @@ export class DashboardComponent implements OnInit {
 
     var gradientStroke = this.ctx.createLinearGradient(0, 230, 0, 50);
 
-    gradientStroke.addColorStop(1, 'rgba(233,32,16,0.2)');
-    gradientStroke.addColorStop(0.4, 'rgba(233,32,16,0.0)');
-    gradientStroke.addColorStop(0, 'rgba(233,32,16,0)'); //red colors
+    gradientStroke.addColorStop(1, 'rgba(77,65,204,0.3)');
+    gradientStroke.addColorStop(0.4, 'rgba(77,65,204,0.0)');
+    gradientStroke.addColorStop(0, 'rgba(77,65,204,0)'); //red colors
 
     var data = {
       labels: ['JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'],
@@ -399,9 +399,9 @@ export class DashboardComponent implements OnInit {
 
     var gradientStroke = this.ctx.createLinearGradient(0, 230, 0, 50);
 
-    gradientStroke.addColorStop(1, 'rgba(233,32,16,0.2)');
-    gradientStroke.addColorStop(0.4, 'rgba(233,32,16,0.0)');
-    gradientStroke.addColorStop(0, 'rgba(233,32,16,0)'); //red colors
+    gradientStroke.addColorStop(1, 'rgba(77,65,204,0.3)');
+    gradientStroke.addColorStop(0.4, 'rgba(77,65,204,0.0)');
+    gradientStroke.addColorStop(0, 'rgba(77,65,204,0)'); //red colors
 
     var config = {
       type: 'line',
